@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="border1">
+        <h1><b><u>BMI</u></b></h1>
+        <div class="border2">
+            <form action=""> <br><br><br><br>
+                   &nbsp;<input type="text" id="weight" class="inputtext" placeholder="Enter Weight.." /> 
+                    <select name="weight" id="dd1">
+                        <option value="Kg">kg</option>
+                        <option value="lbs">lbs</option>
+                    </select><br><br><br><br>
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="height" class="inputtext" placeholder="Enter Height.."/>
+                    <select name="height" id="dd2">
+                        <option value="inches">inche</option>
+                        <option value="meter">meter</option>
+                    </select><br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button type="button" id="b1" class="button1" onclick="calcubmi()">BMI</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button type="reset" id="b2" class="button1" onclick="reset()">RESET</button>
+
+            </form><br><br><br>
+            <div >
+                <p id="display"></p>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
